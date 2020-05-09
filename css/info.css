@@ -1,0 +1,13 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem;
+}
+.tip{
+    font-size: 15px;
+    color:#EE8262;
+}
+.btn{
+    font-size: 15px;
+    color:#1E90FF;
+}

@@ -1,0 +1,81 @@
+
+ body{
+        background:url('../image/bg.png') no-repeat left top;
+        background-size: cover;
+  }
+  .container{
+      bottom:15%;
+      
+  }
+  .content{
+      width: 75%;
+      margin: 0 auto;
+  }
+  .name{
+      font-size: 15px;
+      margin-bottom: 1rem;
+      width:50%;
+      height:2rem;
+      line-height:2rem;
+      text-align: center;
+      color:#8B8378;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border:2px solid #CDC9C9;
+  }
+  .input{
+      border:none;
+  }
+  .btn{
+    width:50%;
+    color:#fff;
+    background-color: #63B8FF;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:2px solid #63B8FF; 
+  }
+  .shows {
+    top: 40%;
+}
+
+.showContainer {
+    width: 85%;
+    /* height:10rem; */
+    /* top: 40%;
+    left:3rem; */
+    margin: 0 auto;
+
+}
+
+.container-bg {
+    background-color: rgba(33, 33, 33, 0.9);
+    border-radius: 10%;
+    text-align: center;
+}
+.show-text {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+.sure {
+    width: 50%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(0, 163, 232);
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

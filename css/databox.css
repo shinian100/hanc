@@ -1,0 +1,123 @@
+﻿body {
+    font-family: Helvetica,Microsoft JhengHei;
+    font-size:1.5rem;
+}
+*{ padding:0; margin:0;}
+.content {
+    padding-top: 11%;
+    font-family: hyxmtj,Microsoft JhengHei;
+    text-shadow: 0.5px 1px 1px #e3eab7;
+}
+.datetitle {
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+    color: black;
+    position: relative;
+}
+.datebox{ margin: 0 auto; margin-top: 1.2rem; width:100%; -moz-border-radius:1.5rem; -webkit-border-radius:1.5rem; border-radius:1.5rem; padding:0 1rem;  font-size:0.7rem; background:white; text-shadow:none;}
+.datebox table{width:100%; border:none;}
+.datebox table td{ width: 3rem;height:3rem;text-align: center;border: 1px solid transparent; }
+/* .datebox table td div{ font-size: small; } */
+.datebox table td .appointmentNo{ color:rgb(32, 30, 30);border-radius: 10%; border:2px solid rgba(46, 45, 45,0.5);}
+.datebox table td .appointmentNo .subscribe{color: rgb(251, 22, 51);display:block;}
+.datebox table td.selected .defaultEmpty,.datebox table td.selected .default,.datebox table td.selected .full{background-color: rgb(0,135,249); color:#fff;border-radius: 10%; border:none;}
+.datebox table td.selected .defaultEmpty .subscribe,.datebox table td.selected .default .subscribe,.datebox table td.selected .full .subscribe{color:#fff;display:block;}
+.datebox table td .defaultEmpty{border:2px solid rgb(46 ,139, 87);border-radius: 10%;}
+.datebox table td .defaultEmpty .subscribe{color:rgb(46 ,139, 87);display:block;}
+.datebox table td .full{border:2px solid rgb(251, 22, 51);border-radius: 10%;}
+.datebox table td .full .subscribe{color:rgb(251, 22, 51);display:block;}
+.datebox table td .default{border:2px solid rgb(128, 128, 128);border-radius: 10%;}
+.datebox table td .default .subscribe{color:rgb(128, 128, 128);display:block;}
+.datebox table td.selected .subscribe{display:block;}
+/* .datebox table td .subscribe{display:none;} */
+.datebox table tfoot td{ font-weight: bold;}
+.databox #up  ,.databox #down {
+    cursor: pointer;
+}
+.datetitle #down {
+    float: right;
+    margin-right:2rem;
+}
+.datetitle #up {
+    float: left;
+    margin-left:2rem;
+}
+.datetitle #up:hover ,.datetitle #down:hover {
+    color: green;
+}
+.button-cancel{
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    vertical-align:middle;
+}
+.button-cancel .cancel{
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(0,163,232);
+    height:3rem;
+    border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+    box-shadow: 5px 5px 5px #888888;
+    line-height:3rem;
+    margin: 0 auto;
+    width:75%;
+}
+.shows{
+    top:50%;
+}
+.showContainer {
+    width: 60%;
+    margin: 0 auto;
+}
+.container-bg{
+    background-color: rgba(33, 33, 33, 0.9);
+    border-radius: 10%;
+    text-align: center;
+}
+.title{
+    color:#fff;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.sure{
+    width:40%;
+    color:#fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    height:2rem;
+    line-height: 2rem;
+    border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+    background-color:rgb(0,163,232) ;
+    /* margin:0.5rem 1.2rem; */
+    margin: 0 auto;
+}
+.cancel-one{
+    width:40%;
+    color:#fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    height:2rem;
+    line-height: 2rem;
+    border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+    background-color:rgb(0,163,232) ;
+    /* margin:0.5rem 1.2rem; */
+    margin: 0 auto;
+}
